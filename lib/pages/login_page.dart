@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login_registration/pages/Hospital_list.dart';
 import 'package:flutter_login_registration/pages/SignUp.dart';
 import 'package:flutter_login_registration/utils/colors.dart';
 import 'package:flutter_login_registration/widgets/button_widget.dart';
@@ -41,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                                Navigator.push(
                                    context,
                                    MaterialPageRoute(
-                                       builder: (context)=> SignUp()));
+                                       builder: (context)=> HospitalPage()));
     },
 
                          buttonText: "Login",
